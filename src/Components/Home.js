@@ -34,18 +34,6 @@ const cars = [
   },
   {
     id: 3,
-    name: 'Balista Compact',
-    image: balista,
-    class: 'B',
-    strikes: '0',
-    transmission: 'Manual',
-    turbo: '0mm',
-    trunk: '400kg',
-    glovebox: '150kg',
-    price: '$9,000',
-  },
-  {
-    id: 4,
     name: 'Sentinel XS',
     image: senitnelxs,
     class: 'A',
@@ -57,7 +45,7 @@ const cars = [
     price: '$85,000',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Corquette D10',
     image: corquette,
     class: 'A',
@@ -68,6 +56,18 @@ const cars = [
     glovebox: '150kg',
     price: '$250,000',
   },
+  {
+    id: 5,
+    name: 'Balista Compact',
+    image: balista,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Manual',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$9,000',
+  },
   
 ];
 
@@ -77,6 +77,14 @@ function Home() {
           <div className='main-logo-container'>
             <img className='main-logo' src={vdm} alt="Car" />
           </div>
+      <div className='contact-wrapper'>
+        <div className='contact-container'>
+          <p className='contact'>Text or Call Chip (420) 971-5077</p>
+        </div>
+        <div className='contact-container'>
+          <p className='contact'>Text or Call Vinny (420) 927-6221</p>
+        </div>
+      </div>
       <div className='car-wrapper'>
         {/* Map over the cars array to render each car dynamically */}
         {cars.map(car => (
@@ -99,13 +107,7 @@ function Home() {
           </div>
         ))}
       </div>
-      <div className='main-container'>
-      <div className='contact-wrapper'>
-        <div className='contact-container'>
-          <p className='contact'>Text or Call Chip (420) 971-5077</p>
-        </div>
-      </div>
-    </div>
+
     </div>
   );
 }
