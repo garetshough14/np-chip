@@ -1,118 +1,73 @@
 import React from 'react';
 import '../CSS/Home.css';
 import ninef from '../Images/9f.jpg'; // Path to your image file
+import balista from '../Images/Balista.jpg'
+import blazer from '../Images/Blazer.jpg'
+import senitnelxs from '../Images/SentinelXs.jpg'
+import corquette from '../Images/CorquetteD10.jpg'
 
 const cars = [
   {
     id: 1,
+    name: "9F",
     image: ninef,
     class: 'A',
     strikes: '0',
     transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
+    turbo: '99mm',
+    trunk: '400kg',
     glovebox: '150kg',
-    price: '$5,000',
+    price: '$300,000',
   },
   {
     id: 2,
-    image: ninef,
-    class: 'A',
+    name: 'Blazer',
+    image: blazer,
+    class: 'D',
     strikes: '0',
     transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
+    turbo: '0mm',
+    trunk: '0kg',
     glovebox: '150kg',
-    price: '$5,000',
+    price: '$7,900',
   },
   {
     id: 3,
-    image: ninef,
-    class: 'A',
+    name: 'Balista Compact',
+    image: balista,
+    class: 'B',
     strikes: '0',
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
+    transmission: 'Manual',
+    turbo: '0mm',
+    trunk: '400kg',
     glovebox: '150kg',
-    price: '$5,000',
+    price: '$9,000',
   },
   {
     id: 4,
-    image: ninef,
+    name: 'Sentinel XS',
+    image: senitnelxs,
     class: 'A',
     strikes: '0',
     transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
+    turbo: '0mm',
+    trunk: '400kg',
     glovebox: '150kg',
-    price: '$5,000',
+    price: '$85,000',
   },
   {
     id: 5,
-    image: ninef,
+    name: 'Corquette D10',
+    image: corquette,
     class: 'A',
     strikes: '0',
     transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
+    turbo: '0mm',
+    trunk: '400kg',
     glovebox: '150kg',
-    price: '$5,000',
+    price: '$250,000',
   },
-  {
-    id: 6,
-    image: ninef,
-    class: 'A',
-    strikes: '0',
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000',
-  },
-  {
-    id: 7,
-    image: ninef,
-    class: 'A',
-    strikes: '0',
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000',
-  },
-  {
-    id: 8,
-    image: ninef,
-    class: 'A',
-    strikes: '0',
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000',
-  },
-  {
-    id: 9,
-    image: ninef,
-    class: 'A',
-    strikes: '0',
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000',
-  },
-  {
-    id: 10,
-    image: ninef,
-    class: 'A',
-    strikes: '0',
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000',
-  },
+  
 ];
 
 function Home() {
@@ -124,6 +79,7 @@ function Home() {
           <div key={car.id} className='car-container'>
             <img className='car-image' src={car.image} alt="Car" />
             <div className='description-container'>
+              <p>{car.name}</p>
               <p>Transmission: {car.transmission}</p>
               <p>Turbo: {car.turbo}</p>
               <p>Trunk: {car.trunk}</p>
