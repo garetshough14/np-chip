@@ -102,7 +102,7 @@ function Home() {
       <div className='main-container'>
       <div className='contact-wrapper'>
         <div className='contact-container'>
-          <div className='contact'>Text or Call Chip (420) 971-5077</div>
+          <p className='contact'>Text or Call Chip (420) 971-5077</p>
         </div>
       </div>
     </div>
