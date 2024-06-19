@@ -1,0 +1,68 @@
+.main-container {
+    margin: 40px auto; /* Center the container horizontally */
+    width: 80%;
+  }
+  
+  .car-wrapper {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center;
+  }
+  
+  .car-container {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.342); /* Soft shadow effect */
+    width: 400px; /* Set a fixed width for each car container */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .car-container:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+  }
+  
+  .car-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Rounded corners for images */
+  }
+  
+  .description-container {
+    padding: 16px; /* Increased padding for better spacing */
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .price-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .price-container {
+    padding: 12px;
+    background-color: #f0f0f0; /* Light gray background for price container */
+    border-radius: 20px;
+    border: 2px solid #ccc;
+  }
+  
+  .car-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .car-container {
+      width: calc(50% - 30px); /* Two columns, minus margins */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .car-container {
+      width: calc(100% - 30px); /* One column, minus margins */
+    }
+  }
+  
