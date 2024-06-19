@@ -63,7 +63,6 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    text-align: center;
   }
 
   .contact-container{
@@ -71,13 +70,16 @@
     background-color: #f0f0f0;
     width: 30%;
     padding: 20px;
-    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.342); /* Soft shadow effect */
+
   }
   
   .contact{
+    width: 100%;
     display: flex;
     font-size: 20px;
     font-style: bold;
+
   }
 
   /* Media query for responsiveness */

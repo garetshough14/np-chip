@@ -99,11 +99,13 @@ function Home() {
           </div>
         ))}
       </div>
+      <div className='main-container'>
       <div className='contact-wrapper'>
-            <div className='contact-container'>
-              <div className='contact'> Contact Chip (420) 971-5077</div>
-            </div>
+        <div className='contact-container'>
+          <div className='contact'>Text or Call Chip (420) 971-5077</div>
+        </div>
       </div>
+    </div>
     </div>
   );
 }
