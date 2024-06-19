@@ -99,6 +99,11 @@ function Home() {
           </div>
         ))}
       </div>
+      <div className='contact-wrapper'>
+            <div className='contact-container'>
+              <div className='contact'> Contact Chip (420) 971-5077</div>
+            </div>
+      </div>
     </div>
   );
 }

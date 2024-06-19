@@ -58,7 +58,28 @@
     font-weight: bold;
     color: #333;
   }
+
+  .contact-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-container{
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+  }
   
+  .contact{
+    display: flex;
+    font-size: 20px;
+    font-style: bold;
+  }
+
   /* Media query for responsiveness */
   @media (max-width: 768px) {
     .car-container {
