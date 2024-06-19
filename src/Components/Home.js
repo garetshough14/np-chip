@@ -6,101 +6,13 @@ const cars = [
   {
     id: 1,
     image: ninef,
+    class: 'A',
+    strikes: '1',
     transmission: 'Sequential',
     turbo: '100mm',
     trunk: '150kg',
     glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 2,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 3,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 4,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 5,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 6,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 7,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 8,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 9,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 10,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
-  },
-  {
-    id: 11,
-    image: ninef,
-    transmission: 'Sequential',
-    turbo: '100mm',
-    trunk: '150kg',
-    glovebox: '150kg',
-    price: '$5,000'
+    price: '$5,000',
   },
   
 ];
@@ -118,6 +30,8 @@ function Home() {
               <p>Turbo: {car.turbo}</p>
               <p>Trunk: {car.trunk}</p>
               <p>Glovebox: {car.glovebox}</p>
+              <p>Class: {car.class}</p>
+              <p>strikes: {car.strikes}</p>
             </div>
             <div className='price-wrapper'>
               <div className='price-container'>
