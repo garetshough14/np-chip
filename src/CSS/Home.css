@@ -2,6 +2,12 @@
     margin: 40px auto; /* Center the container horizontally */
     width: 80%;
   }
+
+.main-logo-container{
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
   
   .car-wrapper {
     display: flex;

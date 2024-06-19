@@ -5,6 +5,7 @@ import balista from '../Images/Balista.jpg'
 import blazer from '../Images/Blazer.jpg'
 import senitnelxs from '../Images/SentinelXs.jpg'
 import corquette from '../Images/CorquetteD10.jpg'
+import vdm from '../Images/VDMLogo.png'
 
 const cars = [
   {
@@ -73,6 +74,9 @@ const cars = [
 function Home() {
   return (
     <div className='main-container'>
+          <div className='main-logo-container'>
+            <img className='main-logo' src={vdm} alt="Car" />
+          </div>
       <div className='car-wrapper'>
         {/* Map over the cars array to render each car dynamically */}
         {cars.map(car => (
