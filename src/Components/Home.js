@@ -107,18 +107,6 @@ const cars = [
     glovebox: '150kg',
     price: '$48,995',
   },
-  {
-    id: 9,
-    name: 'Penumbra',
-    image: penumbra,
-    class: 'A',
-    strikes: '0',
-    transmission: 'Sequential',
-    turbo: '0mm',
-    trunk: '400kg',
-    glovebox: '150kg',
-    price: '$129,995',
-  },  
 ];
 
 function Home() {
