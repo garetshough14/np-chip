@@ -1,4 +1,5 @@
 // src/data/cars.js
+
 import ninef from '../Images/9f.jpg';
 import balista from '../Images/Balista.jpg';
 import blazer from '../Images/Blazer.jpg';
@@ -10,6 +11,17 @@ import blistareg from '../Images/BlistaReg.jpg';
 import penumbra from '../Images/Penumbra.jpg';
 
 const carData = [
+   {
+    name: "9F",
+    image: ninef,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '99mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$300,000',
+  },
   {
     name: 'Sentinel XS',
     image: senitnelxs,
@@ -20,6 +32,7 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$85,000',
+    state: 'available', 
   },
   {
     name: 'Corquette D10',
@@ -31,6 +44,7 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$250,000',
+    state: 'available', 
   },
   {
     name: 'Blista Compact',
@@ -42,6 +56,7 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$9,000',
+    state: 'available', 
   },
   {
     name: 'Oracle',
@@ -53,6 +68,18 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$19,995',
+    state: 'available', 
+  },
+  {
+    name: 'Blazer',
+    image: blazer,
+    class: 'D',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '0kg',
+    glovebox: '150kg',
+    price: '$7,900',
   },
   {
     name: 'Felon',
@@ -64,6 +91,7 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$25,995',
+    state: 'available', 
   },
   {
     name: 'Blista',
@@ -75,6 +103,7 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$48,995',
+    state: 'available', 
   },
   {
     name: 'Penumbra',
@@ -86,6 +115,7 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$129,995',
+    state: 'available', 
   },
 ];
 
