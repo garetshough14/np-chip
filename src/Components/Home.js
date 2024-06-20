@@ -42,7 +42,7 @@ function Home() {
             ) : (
               <div className='sold-price-wrapper'>
               <div className='sold-price-container'>
-                <div className='car-price'>SOLD</div>
+                <p className='car-price'>SOLD</p>
               </div>
             </div>
             )}
