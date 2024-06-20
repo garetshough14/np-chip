@@ -9,6 +9,8 @@
     font-family: 'Roboto', sans-serif; /* Example of using Google Fonts */
     color: inherit; /* Inherits color from the parent element */
     text-decoration: none; /* Removes underline */
+    font-size: 18px;
+    font-weight: bold;
   }
   
   .nav-divs {

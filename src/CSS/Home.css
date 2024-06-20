@@ -86,6 +86,8 @@
   background-color: #f07474; /* Light gray background for price container */
   border-radius: 20px;
   border: 2px solid #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .sold-car-price {
@@ -93,9 +95,6 @@
   font-weight: bold;
   color: #333;
 }
-
-
-
 
 
 .contact-wrapper {
@@ -111,6 +110,8 @@
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.342); /* Soft shadow effect */
   transition: transform 0.3s ease;
+
+  text-decoration: none; /* Removes underline */
 }
 
 .contact {
@@ -118,6 +119,8 @@
   display: flex;
   font-size: 20px;
   font-style: bold;
+  color: inherit; /* Inherits color from the parent element */
+  text-decoration: none; /* Removes underline */
 }
 
 

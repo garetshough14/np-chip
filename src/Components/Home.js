@@ -4,6 +4,7 @@ import React from 'react';
 import '../CSS/Home.css';
 import vdm from '../Images/VDMLogo.png';
 import cars from '../data/Cars'; // Import the cars data
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -13,11 +14,11 @@ function Home() {
       </div>
       <div className='contact-wrapper'>
         <div className='contact-container'>
-          <p className='contact'>Text or Call Chip (420) 971-5077</p>
+        <Link className='contact' to="/team">Click Here to Contact Us</Link>
         </div>
-        <div className='contact-container'>
+        {/* <div className='contact-container'>
           <p className='contact'>Text or Call Vinny (420) 927-6221</p>
-        </div>
+        </div> */}
       </div>
       <div className='car-wrapper'>
         {/* Map over the cars array to render each car dynamically */}
