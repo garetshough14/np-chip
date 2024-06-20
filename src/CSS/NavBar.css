@@ -7,24 +7,28 @@
     background-color: #FFFFFF;
     border-bottom: 1px solid #9B9B9B;
     font-family: 'Roboto', sans-serif; /* Example of using Google Fonts */
+    color: inherit; /* Inherits color from the parent element */
+    text-decoration: none; /* Removes underline */
   }
   
-  .nav-container div {
+  .nav-divs {
     margin: 0 20px; /* Space between menu items */
     padding: 10px 15px; /* Padding inside menu items */
     cursor: pointer; /* Cursor pointer for better UX */
     transition: background-color 0.3s ease; /* Smooth background color transition */
+    color: inherit; /* Inherits color from the parent element */
+    text-decoration: none; /* Removes underline */
   }
   
-  .nav-container div:hover {
+  .nav-divs:hover {
     background-color: #F0F0F0; /* Light gray background on hover */
     border-radius: 8px; /* Rounded corners on hover */
   }
   
-  .nav-container div:first-child {
+  .nav-divs:first-child {
     margin-left: 0; /* Remove left margin from the first menu item */
   }
   
-  .nav-container div:last-child {
+  .nav-divs:last-child {
     margin-right: 0; /* Remove right margin from the last menu item */
   }
