@@ -31,6 +31,10 @@
   transform: translateY(-5px); /* Lift the card slightly on hover */
 }
 
+.contact-container:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+}
+
 .car-image {
   width: 100%;
   height: 250px; /* Set a fixed height for all images */
@@ -83,6 +87,7 @@
   margin: 20px;
   padding: 20px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.342); /* Soft shadow effect */
+  transition: transform 0.3s ease;
 }
 
 .contact {
@@ -91,6 +96,7 @@
   font-size: 20px;
   font-style: bold;
 }
+
 
 /* Media query for responsiveness */
 @media (max-width: 768px) {
