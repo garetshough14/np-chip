@@ -23,8 +23,8 @@ function Home() {
         {cars.map(car => (
           <div key={car.id} className='car-container'>
             <img className='car-image' src={car.image} alt="Car" />
+              <p className='car-name'>{car.name}</p>
             <div className='description-container'>
-              <p>{car.name}</p>
               <p>Transmission: {car.transmission}</p>
               <p>Turbo: {car.turbo}</p>
               <p>Trunk: {car.trunk}</p>
