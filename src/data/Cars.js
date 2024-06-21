@@ -9,8 +9,9 @@ import oracle from '../Images/Oracle.jpg';
 import felon from '../Images/Felon.jpg';
 import blistareg from '../Images/BlistaReg.jpg';
 import penumbraone from '../Images/PenumbraNew.jpg';
-import gauntletone from '../Images/Gauntlet1.jpg'
-import asteropeOne from '../Images/Asterope1.jpg'
+import gauntletone from '../Images/Gauntlet1.jpg';
+import asteropeOne from '../Images/Asterope1.jpg';
+import furoreOne from '../images/Furore1.jpg';
 
 
 const carData = [
@@ -141,6 +142,18 @@ const carData = [
     trunk: '600kg',
     glovebox: '150kg',
     price: '$34,999',
+    state: 'available',  
+  },
+  {
+    name: 'Furore GT',
+    image: furoreOne,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$450,000',
     state: 'available',  
   },
 ];
