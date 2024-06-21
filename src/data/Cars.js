@@ -8,7 +8,7 @@ import corquette from '../Images/CorquetteD10.jpg';
 import oracle from '../Images/Oracle.jpg';
 import felon from '../Images/Felon.jpg';
 import blistareg from '../Images/BlistaReg.jpg';
-import penumbra from '../Images/Penumbra.jpg';
+import penumbraone from '../Images/PenumbraNew.jpg';
 import gauntletone from '../Images/Gauntlet1.jpg'
 import asteropeOne from '../Images/Asterope1.jpg'
 
@@ -110,7 +110,7 @@ const carData = [
   },
   {
     name: 'Penumbra',
-    image: penumbra,
+    image: penumbraone,
     class: 'A',
     strikes: '0',
     transmission: 'Sequential',
