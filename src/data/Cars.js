@@ -10,6 +10,7 @@ import felon from '../Images/Felon.jpg';
 import blistareg from '../Images/BlistaReg.jpg';
 import penumbra from '../Images/Penumbra.jpg';
 import gauntletone from '../Images/Gauntlet1.jpg'
+import asteropeOne from '../Images/Asterope1.jpg'
 
 
 const carData = [
@@ -129,6 +130,18 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$115,000', 
+  },
+  {
+    name: 'Asterope',
+    image: asteropeOne,
+    class: 'C',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '52mm',
+    trunk: '600kg',
+    glovebox: '150kg',
+    price: '$34,999',
+    state: 'available',  
   },
 ];
 
