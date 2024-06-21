@@ -1,6 +1,5 @@
-// src/components/Team.js
 import React from 'react';
-import '../CSS/Team.css'; // Import the new CSS file
+import '../CSS/Team.css';
 import vdm from '../Images/VDMLogo.png';
 import employees from '../data/Employees';
 
@@ -11,7 +10,6 @@ function Team() {
         <img className='team-logo' src={vdm} alt="VDM Logo" />
       </div>
       <div className='team-wrapper'>
-        {/* Map over the employees array to render each employee dynamically */}
         {employees.map(employee => (
           <div key={employee.id} className='team-container'>
             <img className='team-image' src={employee.image} alt="Employee" />

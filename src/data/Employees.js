@@ -14,7 +14,7 @@ const employees = [
   {
     id: 2,
     name: "Chip Wheeler",
-    title: 'Owner',
+    title: 'Founder / Owner',
     image: chip,
     number: '(420) 971-5077'
   },

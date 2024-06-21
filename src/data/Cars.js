@@ -9,6 +9,8 @@ import oracle from '../Images/Oracle.jpg';
 import felon from '../Images/Felon.jpg';
 import blistareg from '../Images/BlistaReg.jpg';
 import penumbra from '../Images/Penumbra.jpg';
+import gauntletone from '../Images/Gauntlet1.jpg'
+
 
 const carData = [
    {
@@ -116,6 +118,17 @@ const carData = [
     glovebox: '150kg',
     price: '$129,995',
     state: 'available', 
+  },
+    {
+    name: 'Gauntlet',
+    image: gauntletone,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '60mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$115,000', 
   },
 ];
 
