@@ -34,7 +34,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$85,000',
+    price: '$82,995',
     state: 'available', 
   },
   {
@@ -46,7 +46,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$250,000',
+    price: '$244,995',
     state: 'available', 
   },
   {
@@ -70,7 +70,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$19,995',
+    price: '$18,995',
     state: 'available', 
   },
   {
@@ -105,7 +105,7 @@ const carData = [
     turbo: '41mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$48,995',
+    price: '$46,995',
     state: 'available', 
   },
   {
