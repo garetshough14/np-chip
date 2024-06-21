@@ -11,7 +11,7 @@ import blistareg from '../Images/BlistaReg.jpg';
 import penumbraone from '../Images/PenumbraNew.jpg';
 import gauntletone from '../Images/Gauntlet1.jpg';
 import asteropeOne from '../Images/Asterope1.jpg';
-import furoreOne from '../images/Furore1.jpg';
+import furoreOne from '../Images/Furore1.jpg';
 
 
 const carData = [
