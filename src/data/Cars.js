@@ -147,7 +147,7 @@ const carData = [
   {
     name: 'Furore GT',
     image: furoreOne,
-    class: 'A',
+    class: 'S',
     strikes: '0',
     transmission: 'Sequential',
     turbo: '0mm',
