@@ -72,7 +72,6 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$18,995',
-    state: 'available', 
   },
   {
     name: 'Blazer',
@@ -106,8 +105,7 @@ const carData = [
     turbo: '41mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$46,995',
-    state: 'available', 
+    price: '$46,995', 
   },
   {
     name: 'Penumbra',
