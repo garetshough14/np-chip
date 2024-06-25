@@ -12,6 +12,7 @@ import penumbraone from '../Images/PenumbraNew.jpg';
 import gauntletone from '../Images/Gauntlet1.jpg';
 import asteropeOne from '../Images/Asterope1.jpg';
 import furoreOne from '../Images/Furore1.jpg';
+import furoreTwo from '../Images/FuroreGT2.jpg'
 
 
 const carData = [
@@ -36,7 +37,6 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$82,995',
-    state: 'available', 
   },
   {
     name: 'Corquette D10',
@@ -154,6 +154,19 @@ const carData = [
     price: '$450,000',
     state: 'available',  
   },
+  {
+    name: 'Furore GT',
+    image: furoreTwo,
+    class: 'C',
+    strikes: '0',
+    transmission: 'Automatic',
+    turbo: '0mm',
+    trunk: '150kg',
+    glovebox: '150kg',
+    price: '$8,995',
+    state: 'available',  
+  },
+
 ];
 
 // Add IDs dynamically
