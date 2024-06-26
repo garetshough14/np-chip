@@ -13,6 +13,9 @@ import gauntletone from '../Images/Gauntlet1.jpg';
 import asteropeOne from '../Images/Asterope1.jpg';
 import furoreOne from '../Images/Furore1.jpg';
 import furoreTwo from '../Images/FuroreGT2.jpg'
+import ballerone from '../Images/Baller1.jpg'
+import cavalcadeone from '../Images/Cavalcade.jpg'
+import feltzerone from '../Images/Feltzer1.jpg'
 
 
 const carData = [
@@ -155,17 +158,54 @@ const carData = [
     state: 'available',  
   },
   {
-    name: 'Furore GT',
+    name: 'Baller',
+    image: ballerone,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '800kg',
+    glovebox: '150kg',
+    price: '$49,995',
+    state: 'available',  
+  },
+  {
+    name: 'Cavalcade',
+    image: cavalcadeone,
+    class: 'C',
+    strikes: '0',
+    transmission: 'Automatic',
+    turbo: '0mm',
+    trunk: '800kg',
+    glovebox: '150kg',
+    price: '$11,995',
+    state: 'available',  
+  },
+  {
+    name: 'Feltzer',
+    image: feltzerone,
+    class: 'S',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '63mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$489,995',
+    state: 'available',  
+  },
+  {
+    name: 'Prairie',
     image: furoreTwo,
     class: 'C',
     strikes: '0',
     transmission: 'Automatic',
     turbo: '0mm',
-    trunk: '150kg',
+    trunk: '400kg',
     glovebox: '150kg',
     price: '$8,995',
     state: 'available',  
   },
+
 
 ];
 
