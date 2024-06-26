@@ -142,8 +142,7 @@ const carData = [
     turbo: '52mm',
     trunk: '600kg',
     glovebox: '150kg',
-    price: '$34,999',
-    state: 'available',  
+    price: '$34,999', 
   },
   {
     name: 'Furore GT',
