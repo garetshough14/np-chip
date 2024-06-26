@@ -125,7 +125,7 @@ const carData = [
     {
     name: 'Gauntlet',
     image: gauntletone,
-    class: 'A',
+    class: 'S',
     strikes: '0',
     transmission: 'Sequential',
     turbo: '60mm',
