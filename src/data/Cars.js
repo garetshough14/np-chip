@@ -16,6 +16,7 @@ import furoreTwo from '../Images/FuroreGT2.jpg'
 import ballerone from '../Images/Baller1.jpg'
 import cavalcadeone from '../Images/Cavalcade.jpg'
 import feltzerone from '../Images/Feltzer1.jpg'
+import progenone from '../Images/Progen1.jpg'
 
 
 const carData = [
@@ -204,6 +205,19 @@ const carData = [
     price: '$8,995',
     state: 'available',  
   },
+  {
+    name: 'Progen',
+    image: progenone,
+    class: 'S',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '73mm',
+    trunk: '0kg',
+    glovebox: '150kg',
+    price: '$1,100,000',
+    state: 'available',  
+  },
+
 
 
 ];
