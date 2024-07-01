@@ -7,6 +7,12 @@ import cars from '../data/Cars';
 import { Link } from 'react-router-dom';
 
 function Home() {
+  // Ensure all cars have a state property, default to 'unavailable'
+  const carsWithState = cars.map(car => ({ ...car, state: car.state || 'unavailable' }));
+
+  // Sort cars: available cars first
+  const sortedCars = carsWithState.sort((a, b) => a.state === 'available' ? -1 : 1);
+
   return (
     <div className='main-container'>
       <div className='main-logo-container'>
@@ -14,11 +20,11 @@ function Home() {
       </div>
       <div className='contact-wrapper'>
         <div className='contact-container'>
-        <Link className='contact' to="/team">Click Here to Contact Us</Link>
+          <Link className='contact' to="/team">Click Here to Contact Us</Link>
         </div>
       </div>
       <div className='car-wrapper'>
-        {cars.map(car => (
+        {sortedCars.map(car => (
           <div key={car.id} className='car-container'>
             <img className='car-image' src={car.image} alt="Car" />
             <p className='car-name'>{car.name}</p>
@@ -38,10 +44,10 @@ function Home() {
               </div>
             ) : (
               <div className='sold-price-wrapper'>
-              <div className='sold-price-container'>
-                <p className='car-price'>SOLD</p>
+                <div className='sold-price-container'>
+                  <p className='car-price'>SOLD</p>
+                </div>
               </div>
-            </div>
             )}
           </div>
         ))}

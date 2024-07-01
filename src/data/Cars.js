@@ -17,6 +17,7 @@ import ballerone from '../Images/Baller1.jpg'
 import cavalcadeone from '../Images/Cavalcade.jpg'
 import feltzerone from '../Images/Feltzer1.jpg'
 import progenone from '../Images/Progen1.jpg'
+import growlerone from '../Images/growler1.jpg'
 
 
 const carData = [
@@ -215,6 +216,18 @@ const carData = [
     trunk: '0kg',
     glovebox: '150kg',
     price: '$1,100,000',
+    state: 'available',  
+  },
+  {
+    name: 'Growler',
+    image: growlerone,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '78mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$126,995',
     state: 'available',  
   },
 
