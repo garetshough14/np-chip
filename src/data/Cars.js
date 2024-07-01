@@ -53,7 +53,6 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$244,995',
-    state: 'available', 
   },
   {
     name: 'Blista Compact',
