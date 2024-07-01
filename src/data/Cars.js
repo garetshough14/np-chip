@@ -227,8 +227,7 @@ const carData = [
     turbo: '78mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$126,995',
-    state: 'available',  
+    price: '$126,995',  
   },
 
 
