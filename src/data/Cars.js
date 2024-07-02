@@ -18,6 +18,16 @@ import cavalcadeone from '../Images/Cavalcade.jpg'
 import feltzerone from '../Images/Feltzer1.jpg'
 import progenone from '../Images/Progen1.jpg'
 import growlerone from '../Images/growler1.jpg'
+import ardentone from '../Images/ardent1.jpeg'
+import tailgatersone from '../Images/tailgaters1.jpeg'
+import cinqumilaone from '../Images/cinquemilia1.jpeg'
+import washingtonone from '../Images/washington1.jpeg'
+import rapidgtone from '../Images/rapidgtsoft1.jpeg'
+import sultanrsone from '../Images/sultanrsc1.jpeg'
+import buffaloone from '../Images/buffalo1.jpeg'
+import balistatwo from '../Images/balista2.jpeg'
+import biftaone from '../Images/bifta1.jpeg'
+
 
 
 const carData = [
@@ -227,6 +237,126 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$126,995',  
+  },
+  {
+    name: 'Ardent',
+    image: ardentone,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$16,995',
+    state: 'available',  
+  },
+  {
+    name: 'Tailgater S',
+    image: tailgatersone,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '54mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$135,995',
+    state: 'available',  
+  },
+  {
+    name: 'Cinquemila',
+    image: cinqumilaone,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$22,995',
+    state: 'available',  
+  },
+  {
+    name: 'Washington',
+    image: washingtonone,
+    class: 'C',
+    strikes: '0',
+    transmission: 'Automatic',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$21,995',
+    state: 'available',  
+  },
+  {
+    name: 'Rapid GT Softtop',
+    image: rapidgtone,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$70,995',
+    state: 'available',  
+  },
+  {
+    name: 'Sultan RS Classic',
+    image: sultanrsone,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$79,995',
+    state: 'available',  
+  },
+  {
+    name: 'Buffalo',
+    image: buffaloone,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Manual',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$27,995',
+    state: 'available',  
+  },
+  // {
+  //   name: 'Juglar',
+  //   image: growlerone,
+  //   class: 'A',
+  //   strikes: '0',
+  //   transmission: 'Sequential',
+  //   turbo: '82mm',
+  //   trunk: '400kg',
+  //   glovebox: '150kg',
+  //   price: '$301,995',
+  //   state: 'available',  
+  // },
+  {
+    name: 'Balista',
+    image: balistatwo,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Manual',
+    turbo: '0mm',
+    trunk: '0kg',
+    glovebox: '150kg',
+    price: '$44,995',
+    state: 'available',  
+  },
+  {
+    name: 'Bifta',
+    image: biftaone,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Automatic',
+    turbo: '0mm',
+    trunk: '0kg',
+    glovebox: '150kg',
+    price: '$5,899',
+    state: 'available',  
   },
 
 
