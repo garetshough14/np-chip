@@ -211,8 +211,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$8,995',
-    state: 'available',  
+    price: '$8,995', 
   },
   {
     name: 'Progen',
@@ -224,7 +223,6 @@ const carData = [
     trunk: '0kg',
     glovebox: '150kg',
     price: '$1,100,000',
-    state: 'available',  
   },
   {
     name: 'Growler',
@@ -353,8 +351,7 @@ const carData = [
     turbo: '0mm',
     trunk: '0kg',
     glovebox: '150kg',
-    price: '$5,899',
-    state: 'available',  
+    price: '$5,899', 
   },
 
 
