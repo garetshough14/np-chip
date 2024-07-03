@@ -131,7 +131,6 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$129,995',
-    state: 'available', 
   },
     {
     name: 'Gauntlet',
