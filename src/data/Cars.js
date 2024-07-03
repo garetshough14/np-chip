@@ -27,7 +27,7 @@ import sultanrsone from '../Images/sultanrsc1.jpeg'
 import buffaloone from '../Images/buffalo1.jpeg'
 import balistatwo from '../Images/balista2.jpeg'
 import biftaone from '../Images/bifta1.jpeg'
-
+import juglarone from '../Images/juglar1.jpg'
 
 
 const carData = [
@@ -248,7 +248,6 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$16,995',
-    state: 'available',  
   },
   {
     name: 'Tailgater S',
@@ -307,7 +306,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$79,995',
+    price: '$85,995',
     state: 'available',  
   },
   {
@@ -322,18 +321,18 @@ const carData = [
     price: '$27,995',
     state: 'available',  
   },
-  // {
-  //   name: 'Juglar',
-  //   image: growlerone,
-  //   class: 'A',
-  //   strikes: '0',
-  //   transmission: 'Sequential',
-  //   turbo: '82mm',
-  //   trunk: '400kg',
-  //   glovebox: '150kg',
-  //   price: '$301,995',
-  //   state: 'available',  
-  // },
+  {
+    name: 'Juglar',
+    image: juglarone,
+    class: 'A',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '82mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$301,995',
+    state: 'available',  
+  },
   {
     name: 'Balista',
     image: balistatwo,
