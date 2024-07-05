@@ -163,8 +163,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$450,000',
-    state: 'available',  
+    price: '$450,000',  
   },
   {
     name: 'Baller',
