@@ -199,8 +199,7 @@ const carData = [
     turbo: '63mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$489,995',
-    state: 'available',  
+    price: '$489,995', 
   },
   {
     name: 'Prairie',
