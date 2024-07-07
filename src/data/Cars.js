@@ -28,6 +28,8 @@ import buffaloone from '../Images/buffalo1.jpeg'
 import balistatwo from '../Images/balista2.jpeg'
 import biftaone from '../Images/bifta1.jpeg'
 import juglarone from '../Images/juglar1.jpg'
+import tailgaterstwo from '../Images/Tailgaters2.jpg'
+import f620one from '../Images/f6201.jpg'
 
 
 const carData = [
@@ -351,6 +353,31 @@ const carData = [
     glovebox: '150kg',
     price: '$5,899', 
   },
+  {
+    name: 'Tailgater S',
+    image: tailgaterstwo,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '23mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$89,995',
+    state: 'available',  
+  },
+  {
+    name: 'F620',
+    image: f620one,
+    class: 'B',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '0mm',
+    trunk: '400kg',
+    glovebox: '150kg',
+    price: '$20,995',
+    state: 'available',  
+  },
+
 
 
 
