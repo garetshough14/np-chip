@@ -30,6 +30,7 @@ import biftaone from '../Images/bifta1.jpeg'
 import juglarone from '../Images/juglar1.jpg'
 import tailgaterstwo from '../Images/Tailgaters2.jpg'
 import f620one from '../Images/f6201.jpg'
+import Hakuchouone from '../Images/Hakuchou.jpg'
 
 
 const carData = [
@@ -375,6 +376,18 @@ const carData = [
     trunk: '400kg',
     glovebox: '150kg',
     price: '$20,995',
+    state: 'available',  
+  },
+  {
+    name: 'Hakuchou',
+    image: Hakuchouone,
+    class: 'S',
+    strikes: '0',
+    transmission: 'Sequential',
+    turbo: '83mm',
+    trunk: '0kg',
+    glovebox: '0kg',
+    price: '$139,995',
     state: 'available',  
   },
 
