@@ -304,8 +304,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$85,995',
-    state: 'available',  
+    price: '$85,995',  
   },
   {
     name: 'Buffalo',
@@ -363,8 +362,7 @@ const carData = [
     turbo: '23mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$89,995',
-    state: 'available',  
+    price: '$89,995',  
   },
   {
     name: 'F620',
@@ -375,8 +373,7 @@ const carData = [
     turbo: '0mm',
     trunk: '400kg',
     glovebox: '150kg',
-    price: '$20,995',
-    state: 'available',  
+    price: '$20,995',  
   },
   {
     name: 'Hakuchou',
@@ -387,8 +384,7 @@ const carData = [
     turbo: '83mm',
     trunk: '0kg',
     glovebox: '0kg',
-    price: '$139,995',
-    state: 'available',  
+    price: '$139,995', 
   },
 
 
